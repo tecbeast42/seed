@@ -8,7 +8,11 @@ export default {
   argTypes: {},
 } as Meta<typeof TButton>;
 
-export const Default: StoryFn<typeof TButton> = () => ({
+const Template: StoryFn<typeof TButton> = args => ({
   components: { TButton },
-  template: '<t-button>Click me</t-button>'
+  setup: () => args,
+  template: '<t-button v-bind="args">Click me</t-button>'
 })
+
+export const Default = Template.bind({});
+Default.args = { bold: false }

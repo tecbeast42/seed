@@ -15,8 +15,8 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <button class="bg-red-500" :class="{'bold': bold}">
-    <slot></slot>
+  <button class="bg-red-500 px-3 py-1" :class="{'font-bold': bold}">
+    <slot />
   </button>
 </template>
 
