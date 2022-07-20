@@ -19,12 +19,12 @@ export default defineConfig({
       entry: resolve(__dirname, "src/components.ts"),
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ["vue"],
       output: {
         globals: {
-          vue: 'Vue'
-        }
-      }
-    }
-  }
+          vue: "Vue",
+        },
+      },
+    },
+  },
 });

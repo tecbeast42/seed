@@ -1,5 +1,4 @@
-import "@/index.css"
+import "@/index.css";
 
 // reshare our components for later consumption
-export { default as TButton } from '@/components/TButton.vue';
-
+export { default as TButton } from "@/components/TButton.vue";

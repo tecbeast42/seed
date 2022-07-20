@@ -7,8 +7,8 @@ describe("TButton", () => {
   it("renders properly", () => {
     const wrapper = mount(TButton, {
       slots: {
-        default: "button content"
-      }
+        default: "button content",
+      },
     });
     expect(wrapper.text()).toContain("button content");
   });

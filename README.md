@@ -2,6 +2,25 @@
 
 This is a set of components that can be reused throughout our own projects.
 
+# Setup
+
+You need to add the package to your project with `yarn add`.
+
+To apply the styling you can import file `style.css` from the node_modules folder or 
+you cann add this to your `tailwind.config.js`.
+
+```js
+module.exports = {
+  content: [
+    "./node_modules/seed/dist/seed.js",
+  ],
+};
+```
+
+That way the tailwind jit will add all classes used by the package to your compiled css file.
+
+# Development
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
