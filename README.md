@@ -1,6 +1,6 @@
-# seed
+# seed - nice components for us
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a set of components that can be reused throughout our own projects.
 
 ## Recommended IDE Setup
 
@@ -24,29 +24,35 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+yarn install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn dev
+```
+
+### Storybooks UI
+
+```sh
+yarn storybook
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+yarn build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-npm run test:unit
+yarn test:unit
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+yarn lint
 ```
