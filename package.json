@@ -12,7 +12,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "main": "dist/seed.mjs",
   "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "peerDependencies": {
     "vue": "^3.2.37"
   },
   "devDependencies": {
